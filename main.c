@@ -3,8 +3,12 @@
 
 int main(){
     StudentData student;
+    StudentScores scores;
     inputStudentData(&student);
     printStudentData(&student);
+    inputStudentScores(&scores);
+    printStudentScores(&scores);
+    
 
     printf("Hello, world!\n");
 
